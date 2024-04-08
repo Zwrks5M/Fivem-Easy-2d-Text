@@ -13,7 +13,6 @@ function Draw2DText(x, y, text, scale)
     SetTextScale(scale, scale)
     SetTextColour(255, 1, 1, 255) -- #1 = RED #2 =  GREEN #3 = BLUE #4 = TRANSPARNCY 
     SetTextDropShadow(0, 0, 0, 0,255)
-    SetTextEdge(4, 0, 0, 0, 255)
     SetTextEntry("STRING")
     AddTextComponentString(text)
     DrawText(x, y)
